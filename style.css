@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000013;
+}
+header{
+    padding: 1rem;
+    background-color:#000013;
+
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    cursor: pointer;
+    align-items: center;
+}
+li{
+    color: white;
+    padding: 1rem;
+}
+li:nth-child(1){
+    border-radius: 2px solid red;
+    background-color: blueviolet;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+h5{
+    color: white;
+    font-size: 1rem;
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+}
+.part1{
+    display: flex;
+    align-items: center;
+}
+.part2{
+    display: block;
+    color: white;
+    font-size: 1.5rem;
+}
+span{
+    color: yellow;
+}
+.main-container1{
+    display: flex;
+    gap:1rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.main-container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3rem;
+    
+}
+.main-container2 h2,p{
+    color: white;
+
+}
+.line{
+    height: 4px;
+    width:100px;
+    border-radius: 10px;
+  
+    background-color:blue;
+}
+.dig1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.fline1{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.fline1 .line{
+    width: 130px;
+}
+.fline2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    padding: 5px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#check,#check-btn{
+    display: none;
+}
+
+@media only screen and (max-width:700px) {
+#check-btn{
+    display: block;
+}
+}
+ul{
+    display: none;
+}
+
+@media only screen and (max-width:590px) {
+    .main-container1{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* #check,#check-btn{
+    display: inline;
+    position: absolute;
+    top:10px;
+    left:10px;
+    font-size: 20px;
+}
+.grow-list ul{
+
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    top:20px;
+   
+    left: -100%; 
+}
+ul li{
+    width: 100%;
+    padding-top: 2rem;
+
+}
+ul li:nth-child(1){
+    width:20%;
+    position:relative;
+    left:-9.5rem;
+}
+#check:checked ~ ul{
+    right: -30px;
+     position: relative; 
+}
+}  */
+ 
